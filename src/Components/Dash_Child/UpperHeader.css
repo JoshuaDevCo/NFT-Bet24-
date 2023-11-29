@@ -1,0 +1,19 @@
+.mdsection {
+  margin-left: 70px;
+  display: flex;
+}
+
+.mob_drpBtns {
+  color: #fff !important;
+  text-transform: uppercase;
+  padding: 0 10px;
+  margin-left: 113px;
+  font-size: 12px;
+}
+
+@media(max-width:400px){
+  .w-50{
+    width: 135% !important;
+
+  }
+}

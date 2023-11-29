@@ -1,0 +1,141 @@
+.new_table{
+    color: #AAAFB5 !important;
+}
+
+.table thead th{
+    border-bottom: none !important;
+}
+
+.Today{
+    color: #AAAFB5 !important;
+}
+
+.clr_the{
+    color: #fff !important;
+
+}
+
+
+.borber{
+    border-bottom: 1px solid #AAAFB5 !important;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.5rem 0.5rem;
+    color: var(--bs-table-color-state,var(--bs-table-color-type,var(--bs-table-color)));
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 0px !important;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-bg-state,var(--bs-table-bg-type,var(--bs-table-accent-bg)));
+}
+
+
+.mbl_libe{
+    color: #03B37F !important;
+    position: relative;
+    font-size: 12px !important;
+}
+
+.mbl_libe::after{
+    -webkit-animation: linear infinite alternate;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 1.2s;
+    content: "";
+    background-color:#03B37F ;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    
+    bottom: -2px;
+}
+
+
+.right_borde{
+    border-right: 1px solid #AAAFB5 !important;
+    /* padding: 5px  0px!important; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.about_game{
+    max-height: 16px;
+    line-height: 16px;
+    font-size: 13px !important;
+
+}
+
+.d-icon {
+    font-family: 'dfont' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tv:before {
+    content: "\e901";
+}
+
+
+.last_icons{
+    font-weight: bold;
+    font-size: 12px !important;
+    color: #AAAFB5;
+}
+
+.blue_box{
+    font-size: 15px;
+    font-weight: bold;
+    height: 22px;
+    color: black !important;
+    background-color: #72BBEF;
+    border-radius: 4px;
+    padding: 5px ;
+    text-align: center;
+    display: flex;
+    width: 48%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.pink_box{
+    font-size: 15px;
+    font-weight: bold;
+    height: 22px;
+    color: black !important;
+    background-color: #f994ba;
+    justify-content: center;
+    width: 48%;
+    border-radius: 4px;
+    padding: 5px ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;  
+}
+
+.table_for_mobile{
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+@keyframes run {
+    0% {
+        left: 0;
+        width: 5%;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        right: 0;
+        width: 5%;
+    }
+}

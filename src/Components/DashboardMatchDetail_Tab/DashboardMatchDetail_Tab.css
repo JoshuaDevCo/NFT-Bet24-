@@ -1,0 +1,267 @@
+.tbdtlmc {
+  background-color: #2e3439 !important;
+  width: 25%;
+  border-right: 1px solid gray !important;
+}
+
+.gameTitle {
+  color: #aaafb5;
+}
+
+.gameIcn {
+  color: #aaafb5;
+  font-size: 18px;
+  margin-right: 3px;
+}
+
+.d-icon {
+  font-family: "dfont" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
+}
+
+.icon-10:before {
+  content: "\e90b";
+}
+
+.css-jpln7h-MuiTabs-scroller {
+  overflow-x: scroll !important;
+}
+
+.bet-table-body {
+  position: relative;
+}
+
+.bet-table-box {
+  border-bottom: 1px solid #3c444b;
+}
+
+@media only screen and (min-width: 1280px) {
+  .d-none-desktop {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1599px) {
+  .game-title {
+    width: calc(100% - 348px);
+  }
+}
+
+.game-title {
+  /* width: calc(100% - 492px);
+    display: flex; */
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.game-date.inplay {
+  /* width: auto; */
+  border-right: 0 !important;
+  padding-right: 0;
+  width: 50px;
+  position: relative;
+}
+
+.game-date {
+  /* padding-right: 22px;
+  border-right: 1px solid #3c444b;
+  width: 150px; */
+  display: flex;
+  display: -webkit-flex;
+}
+
+.game-date.inplay span {
+  position: relative;
+  width: 50px;
+  color: #03b37f;
+  text-align: center;
+}
+
+.game-date.inplay ~ .game-name {
+  padding-left: 6px;
+  width: calc(100% - 160px);
+}
+
+.team-name {
+  max-height: 20px;
+  line-height: 20px;
+  margin-bottom: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  color: #aaafb5;
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1599px) {
+  .team-name.team-event {
+    font-size: 12px;
+  }
+}
+
+.game-icons {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.game-icon {
+  width: 25px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.f-bm-icon {
+  font-weight: bold;
+}
+
+.bet-table-row:last-child {
+  border-bottom: 0;
+}
+
+.bet-table-row {
+  padding: 6px 8px;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1599px) {
+  .game-title {
+    width: calc(100% - 348px);
+  }
+}
+
+.game-title {
+  width: calc(100% - 492px);
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.game-date.inplay {
+  width: auto;
+  border-right: 0 !important;
+  padding-right: 0;
+  width: 50px;
+  position: relative;
+}
+
+.game-date {
+  display: -webkit-flex;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1599px) {
+  .point-title {
+    margin-left: 8px;
+    width: 108px;
+  }
+}
+
+.matched-title,
+.point-title {
+  text-align: center;
+  color: var(--text-white);
+}
+
+.suspended {
+  position: relative;
+  pointer-events: none;
+}
+
+.suspended:before {
+  content: "";
+  background-image: url(../../icoons/lock.svg);
+  background-size: 17px 17px;
+  filter: invert(1);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-position: center;
+  pointer-events: none;
+}
+
+.Today {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.fon {
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.eng {
+  font-size: 12px;
+  width: 27%;
+  color: #AAAFB5 !important;
+}
+
+.glo{
+  width:20% ;
+  color: #aaafb5;
+}
+
+.blubx {
+  background-color: #0b9cf1;
+  border-radius: 3px;
+  width: 50px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.pinkbx {
+  border-radius: 3px;
+  background-color: #f37a13;
+  width: 50px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.tbldta {
+  width: 21%;
+}
+
+.simplexb{
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 50px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.UpPrdtalay{
+  margin-top: 23px;
+}
+

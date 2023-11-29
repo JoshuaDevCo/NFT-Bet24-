@@ -1,0 +1,134 @@
+@media(min-width:1023px){
+.slick-slider{
+width: 96% !important;
+margin-left: 1.8% !important;
+margin-top: 6%;
+}
+.slide_toggler{
+    display: none;
+}
+}
+
+#winner_carousel .item{
+    width: 212.5px !important;
+    margin-left: 10px !important;
+}
+
+.carousel .control-dots,.carousel.carousel-slider .control-arrow{
+    display: none !important;
+}
+
+.carousel .slide{
+    margin: 10px !important;
+    min-width: 212.5px;
+}
+
+.owl-carousel{
+    display: block !important;
+}
+
+
+@media(max-width:923px){
+    .slick-slide img{
+        width: 100% !important;
+        
+    }
+    .slick-track{
+        margin-top: 31% !important;
+    }
+
+    .slick-slider{
+        width: 85% !important;
+        margin-left: 10% !important;
+        /* margin-top: 14% ; */
+        }
+
+}
+@media(max-width:400px){
+    /* .slick-slide img{
+        width: 100% !important;
+        
+    }
+    .slick-track{
+        margin-top: 31% !important;
+    } */
+
+    .slick-slider{
+        width: 88% !important;
+        margin-left: 8% !important;
+        /* margin-top: 14% ; */
+        }
+
+}
+
+.slick-prev, .slick-next{
+    display: none !important;
+}
+
+
+.main_login{
+    /* display: contents !important; */
+    background-color: #FDCF13 !important;
+    font-size: 12px !important;
+    height: 40px !important;
+    text-transform: uppercase !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    color: black !important;
+    border-radius: 0 !important;
+    cursor: pointer !important;
+}
+
+
+.main_asion_heading{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FDCF13 !important;
+    text-decoration: underline  !important;
+}
+
+
+
+@media only screen and (max-width:600px){
+    .teli_icon a{
+        width: auto !important;
+    }
+    .signBtn {
+        position: relative;
+        /* right: -2rem; */
+    }
+    
+}
+
+
+body{
+    background-color: #000000;
+}
+
+@media(min-width:600px){
+    .nav_home{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: black;
+    width: 97%;
+    }
+}
+
+@media(max-width:600px){
+    .nav_home{
+    /* position: fixed !important; */
+    top: 60px;
+    z-index: 100;
+    background-color: black;
+    /* width: 82%; */
+    justify-content: space-between !important;
+    flex-wrap: wrap !important;
+    display: flex;
+    }
+
+    .wyzHeader .navbar-dark .navbar-brand img {
+        max-height: 39px !important;
+    }
+}

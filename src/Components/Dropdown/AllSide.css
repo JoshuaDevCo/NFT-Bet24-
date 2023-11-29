@@ -1,0 +1,151 @@
+/* .table-responsive{
+    height: 110rem;
+} */
+
+
+.button_value{
+    width: 100%;
+}
+.update{
+margin-left: 25%;
+}
+
+@media (min-width:600px) {
+    .mod_12{
+        display: flex;
+    }
+    .password{
+        width: 70%;
+    }
+}
+
+@media (max-width:600px) {
+    
+    .password{
+        width: 100%;
+    }
+}
+
+
+.submit_BTN{
+    background-color: green;
+}
+
+.submit_BTN:hover{
+    background-color: green;
+}
+
+.buy_header_h {
+    color: #fff;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.buy_main {
+    padding: 40px 0px;
+}
+
+.buy_header_h {
+    margin-bottom: 0;
+    line-height: 1.5;
+    /* margin-left: 24px; */
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+.buy_card {
+    background: #495057 !important;
+    box-shadow: 0 0 1rem #ffffff;
+    border: 1px solid #052612;
+    /* border-radius: 25px; */
+    min-height: 612px;
+}
+
+.buy_hea {
+    padding: 14px 15px !important;
+    border-bottom: 1px solid #ffffff;
+}
+
+.card_in {
+    padding: 2px 10px 2px 10px !important;
+    width: 69% !important;
+    border: unset;
+    border-radius: 9px;
+}
+
+.input_buy {
+    display: flex;
+    justify-content: left;
+}
+
+.input_btn {
+    border: 1px solid #fff;
+    background: #000000;
+    color: #fff !important;
+    padding: 10px 30px !important;
+    /* margin: 5px; */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.input_btn:hover {
+    background-color: #11ff84 !important;
+}
+
+.buy_token {
+    background: #000000;
+    /* background: linear-gradient(90deg, rgba(131,200,168,1) 0%, rgba(46,117,86,1) 8%, rgba(47,118,87,1) 27%, rgba(53,124,93,1) 47%, rgba(46,117,86,1) 89%, rgba(131,200,168,1) 100%, rgba(46,117,86,1) 1000%); */
+    /* webkit-box-shadow: 4px 2px 6px rgb(72 100 125 / 30%), inset -2px -2px 6px rgb(72 100 125 / 10%); */
+    box-shadow: 4px 2px 6px rgb(0 0 0 / 51%), inset -2px -2px 6px rgb(0 0 0 / 34%);
+    padding: 15px;
+    height: 120px;
+    width: 30%;
+text-align: center;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+
+
+
+@media only screen and (max-width:600px) {
+
+    .input_btn {
+        padding: 5px 10px !important;
+    }
+}
+
+.spinnerload{
+    color: #fff !important;
+    margin-top: 0.5rem;
+    padding: 30px;
+}
+
+
+.loader {
+    /* content: ""; */
+    position: absolute !important;
+    width: 200px;
+    height: 200px;
+    border-radius:40% ;
+    background: #111;
+    /* top: -150%;
+    left: -50%; */
+    opacity: 0.6;
+    /* animation: animate 12s linear infinite; */
+    
+
+}
+
+.buy_coin_history{
+    height: 50vh;
+}
+
+
+
+.active  {
+    background-color: #f37a13 !important;
+}

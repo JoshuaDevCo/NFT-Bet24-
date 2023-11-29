@@ -1,0 +1,659 @@
+h3,
+p {
+	color: #fff;
+}
+
+.header_menu {}
+
+.header_menu .navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+
+.mr_0 {
+	margin-right: 0 !important;
+}
+
+.tab-content_bg ul {
+	margin: 23px 0;
+	justify-content: center;
+}
+
+.main_root .tab-content_bg .nav-link {
+	display: block;
+	padding: 8px 7px;
+	color: #fff;
+	font-size: 18px;
+	background-color: #1e63b1;
+	margin-right: 8px;
+}
+
+.main_root .tab-content_bg {
+	background-color: #fff !important;
+	padding: 10px;
+	border-radius: 8px;
+
+}
+
+.fromdate{
+	color: #fff;
+}
+
+
+.main_root .section_bg {
+	background-color: #0b9cf1   !important;
+	padding: 10px;
+	border-radius: 8px;
+	margin-bottom: 2rem;
+}
+td{
+	/* background-color: #495057 !important; */
+
+}
+.css-mmst5v {
+	background-color: #495057 !important;
+}
+
+.tab-content_bg .cricket_game .table td,
+.table th {
+	white-space: nowrap;
+}
+
+.tab-content_bg .cricket_game .table td a {
+	color: #fff;
+}
+
+.cricket_game {}
+
+.cricket_game table td,
+th {
+	border: 0;
+	color: #fff;
+}
+
+.cricket_game .circle_icon {
+	min-width: 50px;
+	position: relative;
+	top: 3px;
+}
+
+.cricket_game .circle_icon .fa-television {}
+
+.cricket_game .circle_icon .fa-circle {
+	color: #15c415;
+	padding-right: 15px;
+}
+
+.cricket_game .circle_icon1 .fa-circle {
+	color: #cf1212;
+	padding-right: 15px;
+}
+
+.fbe .BMw {
+	color: red;
+}
+
+.fbe .fa-facebook {
+	color: red;
+}
+
+.cricket_game .icon2 {
+	min-width: 73px;
+	padding-right: 8px;
+	display: flex;
+}
+
+.cricket_game .icon2 span:nth-child(1) {
+	padding-right: 15px;
+}
+
+.cricket_game .icon2 span:nth-child(2) img {
+	height: 23px;
+}
+
+.cricket_game .icon2 span:nth-child(2) p {
+	margin: 0;
+	height: 25px;
+}
+
+.cricket_game table thead tr th:nth-child(2),
+.cricket_game table thead tr th:nth-child(3) {
+	text-align: center;
+}
+
+.cricket_game .td_blue,
+.cricket_game .td_pink {
+	height: 28px;
+	width: 53px;
+	text-align: center;
+}
+
+.cricket_game .td_blue {
+	background-color: #1356da;
+}
+
+.cricket_game .td_pink {
+	background-color: #cc2fd9;
+}
+
+.cricket_game .table td,
+.table th {
+	padding: 9px 4px;
+}
+
+.cricket_game .td_width {
+	width: 53px;
+	padding: 9px 0 !important;
+}
+
+.cricket_game {}
+
+
+
+.main_root .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+	background-color: #f37a13;
+}
+
+.main_root .crickte_tab {}
+
+.main_root .crickte_tab img {
+	height: 43px;
+}
+
+.main_root .games_images {
+	margin: 29px 0;
+	background-image: radial-gradient(circle farthest-corner at 83.7% 4.3%, rgba(173, 0, 171, .72) 0, #0d3c71 90%);
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.main_root .games_images .img_item {}
+
+.main_root .games_images .img_item a img {
+	width: 100%;
+	margin: 12px 0;
+}
+
+.main_root .games_images {}
+
+.main_root .bars_bg {
+	background-color: #116257;
+	margin: 7px 0;
+	padding: 8px;
+	border-radius: 5px;
+}
+
+.main_root .section_heading h2,
+.main_root .section_heading h3 {
+	color: #fff;
+	font-size: 14px;
+	margin: 0;
+}
+
+.main_root .section_heading h3 {
+	text-align: right;
+}
+
+.main_root .section_heading p {
+	color: #fff;
+	font-size: 16px;
+	text-align: right;
+	margin: 0;
+}
+
+.section_heading .fa-info-circle {
+	cursor: pointer;
+}
+
+.match_odds_table {}
+
+.match_odds_table table tbody tr td {
+	padding: 1px 1px;
+}
+
+.match_odds_table table tbody tr td.td_width .td_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    min-width: 50px;
+    height: 41px;
+    padding: 3px;
+    /* width: 60px; */
+    /* border: solid #fff 1px; */
+}
+
+.tdbg1 {
+	background-color: #0b9cf1;
+}
+
+.tdbg2 {
+	background-color: #0b9cf1;
+}
+
+.tdbg3 {
+	background-color: #0b9cf1!important;
+}
+
+.tdbg4 {
+	background-color: #f37a13 !important;
+}
+
+.tdbg5 {
+	background-color: #f37a13 !important
+}
+
+.tdbg6 {
+	background-color: #f37a13 !important;
+}
+
+.match_odds_table table tbody tr td.td_width td .td1 {}
+
+.match_odds_table table tbody tr td h4 {
+	font-size: 13px;
+}
+
+.match_odds_table table tbody tr td h4,
+.match_odds_table table tbody tr td h4 {
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    line-height: initial;
+}
+
+.match_odds_table table tbody tr td {}
+
+.match_discription {
+	position: relative;
+	bottom: 15px;
+}
+
+.match_discription p {
+	text-align: right;
+	margin: 0;
+	font-size: 12px;
+}
+
+.txt_color {
+    font-size: 14px !important;
+    color: #59a3b7 !important;
+    font-weight: bold !important;
+}
+
+.mybet_table {}
+
+.mybet_table table thead {
+	background-color: #575a65;
+}
+
+.mybet_table tbody tr td {
+	color: #fff;
+}
+
+.mybet_table .table thead th,
+.mybet_table .table td,
+.mybet_table .table th {
+	border: none;
+	padding: 6px 4px;
+}
+
+.mybet_table {}
+
+.mybet_table {}
+
+.mybet_wedget {
+	border: 1px solid #888;
+	border-radius: 5px;
+}
+
+.mybet_wedget table {
+	margin-bottom: 0;
+}
+
+.mybet_wedget .bars_bg {
+	margin: 0;
+	border-radius: 5px 5px 0 0;
+}
+
+#video_tab {
+	cursor: pointer;
+}
+
+#video_tab1 {
+	cursor: pointer;
+}
+
+.match_odds_table table tbody tr td {
+	padding: 1px 1px;
+	cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+	.cricket_game .circle_icon {
+		padding: 0 49px;
+	}
+
+	.cricket_game .icon2 {
+		padding-right: 49px;
+	}
+
+	.main_root .tab-content_bg .nav-link {
+		margin: 8px;
+		min-width: 84px;
+		text-align: center;
+	}
+
+	.mr_0 {
+		margin-right: 8px !important;
+	}
+
+	.main_root .section_heading p,
+	.main_root .section_heading h3 {
+		text-align: left;
+		margin-top: 8px;
+	}
+
+	.main_root #content {
+		padding: 12px 0;
+	}
+
+	.mybet_table .table thead th,
+	.mybet_table .table td,
+	.mybet_table .table th {
+		border: none;
+		padding: 6px 4px;
+		font-size: 13px;
+	}
+
+	/* .match_odds_table table tbody tr td{
+		min-width: 101px;
+	}
+	.match_odds_table table tbody tr td.min_width{
+		min-width: 205px;
+	} */
+	.match_discription {
+		position: inherit;
+	}
+
+	.header_menu .navbar-dark .navbar-nav .nav-link {
+		color: #fff;
+	}
+}
+
+.swapbg10 {
+	border-radius: 35px;
+	position: relative;
+	min-height: 108px;
+}
+
+.ReactModal__Overlay .ReactModal__Overlay--after-open {
+	background-color: transparent !important;
+}
+
+.col-md-4 {
+	padding-left: 3px !important;
+
+}
+
+.overlay10 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 95%;
+	display: none;
+	background-color: #1b579c;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px -5px rgb(108 108 109);
+	padding-bottom: 24px;
+}
+
+.overlay10 .closebtn {
+	font-size: 34px;
+	font-size: 28px;
+	line-height: 24px;
+}
+
+.popup_header {
+	background-color: #040e3a;
+	border-radius: 5px 5px 0 0;
+	padding: 8px 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.popup_match_heading {
+	background-color: #91079d;
+	padding: 8px;
+	margin: 14px;
+}
+
+.popup_match_heading h3 {
+	font-size: 20px;
+	margin: 0;
+}
+
+.popup_content {}
+
+.popup_content ul {
+	list-style: none;
+	border: 1px solid #b7a2b8;
+	margin: 8px 23px;
+	padding: 0;
+}
+
+.popup_content ul li {
+	padding: 11px 18px;
+	border-top: 1px solid #b7a2b8;
+	font-size: 18px;
+
+}
+
+.popup_content ul li:nth-child(1) {
+	border-top: 0;
+}
+
+@media(max-width: 768px) {
+	.overlay10 {
+		top: 80%;
+	}
+}
+
+
+/*----====Login form=====--*/
+.login_form {
+	margin: 4rem 0;
+	padding: 2rem;
+}
+
+.login_form h1 {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+.login_form h1 span {
+	color: #2196f3;
+}
+
+.login_form p {
+	font-size: 18px;
+	color: #fff;
+	font-weight: 500;
+	margin-top: 12px;
+}
+
+.login_form p a {
+	color: #31a4ff;
+	font-weight: 700;
+}
+
+.login_form .form-group {}
+
+.login_form .form-group label {
+	color: #fff;
+	font-size: 18px;
+}
+
+.login_form .form-group input {
+	height: 50px;
+	border: 1px solid #2196f3;
+	color: #fff;
+	border-radius: 15px;
+	background-color: #2d427b;
+}
+
+.login_form .form-group input::placeholder {
+	color: #fff;
+}
+
+.login_form .form-group input[type="checkbox"] {
+	margin-top: 0;
+	top: -12px;
+}
+
+.set_dflex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.link_text a {
+	color: #36a2f9;
+}
+
+.login_form .login_btn {}
+
+.login_form .login_btn button {}
+
+.login_form .login_btn {
+	margin-top: 20px;
+}
+
+.login_form .login_btn button {
+	border-radius: 8px;
+	background: #2196F3;
+	color: #fff;
+	border: 3px solid transparent;
+	font-size: 18px;
+}
+
+.login_img {}
+
+.login_img img {
+	max-width: 100%;
+	padding: 43px;
+	margin-top: 2rem;
+}
+
+.registerForm {
+	padding: 12px;
+}
+
+.mt_7 {
+	margin-top: 7rem;
+}
+
+@media (max-width: 768px) {
+	.login_form h1 {
+		font-size: 40px;
+	}
+
+	.login_img {
+		display: none;
+	}
+
+	.login_form {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+		margin-top: 0;
+	}
+
+	.registerForm {
+		position: inherit;
+	}
+
+	.tdw1 {
+		display: none;
+	}
+
+}
+
+/*  
+.popup-1{
+
+}
+
+#popup-2{
+	left:2% !important;
+	width:96%
+} */
+
+
+
+.mod_c1 {
+	font-size: 14px !important;
+	color: #fff !important;
+}
+
+.login_form .form-group  .css-13cymwt-control {
+    height: 50px !important;
+    border: 1px solid #2196f3 !important;
+    /* color: #fff !important; */
+    border-radius: 15px !important;
+    background-color: #2d427b !important;
+}
+
+/* .login_form .form-group #countries{
+	background-color: transparent;
+	background:none;
+} */
+
+.country{
+	color: #fff !important;
+}
+
+.css-1dimb5e-singleValue {
+    grid-area: 1/1/2/3;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: hsl(0deg 0% 100%) !important;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-sizing: border-box;
+}
+
+.dropmain{
+	height: 50px !important;
+    border: 1px solid #2196f3 !important;
+    color: #fff !important;
+    border-radius: 15px !important;
+    background-color: #2d427b !important;
+}
+.ng-tns-c85-1{
+	/* color: #fff !important; */
+	font-size: 14px !important;
+}
+#team_nm{
+/* color: #fff !important; */
+font-size: 14px !important;
+}
+.btn-success {
+    color: #fff !important;
+    background-color: #157347 !important;
+    border-color: #146c43 !important;
+}
+.btn-danger {
+    color: #fff !important;
+    background-color: #bb2d3b !important;
+    border-color: #b02a37 !important;
+}

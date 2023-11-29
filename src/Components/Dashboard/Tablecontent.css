@@ -1,0 +1,91 @@
+.game_MobTable {
+  color: #fff;
+  padding: 8px 0;
+  font-size: 14px;
+}
+.game_MobTable .game_MobTable_row {
+  display: flex;
+  justify-content: space-between;
+}
+.game_MobTable .game_MobTable_row .colItem.col__4 {
+  width: 20%;
+}
+.game_MobTable .game_MobTable_row .colItem.col__8 {
+  width: 80%;
+}
+.game_MobTable .game_MobTable_row .colItem:nth-child(1) {
+  border-right: 1px solid #fff;
+}
+.game_MobTable .game_MobTable_row .colItem.flexSet {
+  display: flex;
+  justify-content: space-between;
+}
+.game_MobTable .game_MobTable_row .colItem span {
+}
+.game_MobTable .game_MobTable_row .colItem .icon_Items {
+  display: flex;
+  justify-content: center;
+  width: 77px;
+}
+.game_MobTable .game_MobTable_row .colItem {
+  padding: 4 5px;
+}
+.game_MobTable .game_MobTable_row .colItem .col_Inner {
+  padding-left: 5px;
+}
+.game_MobTable .game_MobTable_row .colItem .col_Inner a {
+  color: #fff;
+}
+.game_MobTable .game_MobTable_row .colItem .col_Inner a:hover {
+  text-decoration: none;
+}
+.game_MobTable .game_MobTable_row .colItem .col_Inner a p {
+  margin-bottom: 1px;
+}
+.game_MobTable .game_MobTable_row .colItem .gameIcon {
+  padding: 0 8px;
+}
+.game_MobTable .game_MobTable_row .colItem .gameIcon span {
+}
+
+.game_MobTable .items_wraper {
+  border: 3px solid #474747;
+}
+.game_MobTable .bottm_td_shape .colItem.flexSet {
+  display: flex;
+}
+.game_MobTable .bottm_td_shape .colItem .column1 {
+  width: 33.33%;
+  display: flex;
+}
+.game_MobTable .colItem.text_center {
+  text-align: center;
+}
+.game_MobTable .bottm_td_shape .colItem .column1 .tdBox.pink {
+  background-color: #0b9cf1;
+}
+.game_MobTable .bottm_td_shape .colItem .column1 .tdBox.blue {
+  background-color: #f37a13;
+}
+.game_MobTable .bottm_td_shape .colItem .column1 .tdBox.blank {
+  background-color: #000;
+}
+.game_MobTable .bottm_td_shape .colItem .column1 .tdBox {
+  width: 50%;
+  text-align: center;
+  height: 41px;
+  padding: 6px 0;
+  border: 3px solid #3b3b3b;
+  font-size: 16px;
+  font-weight: bold;
+}
+.game_MobTable .colItem.vr_middle,
+.game_MobTable .icon_Items.vr_middle {
+  padding-top: 9px;
+}
+
+@media (min-width: 600px) {
+  .game_MobTable {
+    display: none;
+  }
+}
